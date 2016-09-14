@@ -42,14 +42,12 @@
       .span{
       	padding: 5px;
 
-      }
-      .glyphicon glyphicon-star{
-      	font-size: 20px;
-      }
+     }
       
 		.comments{
 			border: 1px solid black;
       padding: 5px;
+      margin-bottom: 3px;
 		}
 
     .button23 {
@@ -61,7 +59,7 @@
   </head>
 
   <body>
-    <button class="button23"><a href="meetingpoint.html">Go to meeting point</a></button>
+    
   	<!-- Fixed navbar -->
   	<nav id="navi" class="navbar navbar-default navbar-fixed-top">
       <div class="container">
@@ -104,49 +102,113 @@
 	<h3>Contact Details</h3>
 
 	<div class="row">
-	<div class="col-sm-6"><a href="meetingpoint.html"><image src="bob.jpg" height= 150px width=150px></a></div>
+	<div class="col-sm-6"><a href="meetingpoint.html"><image class="img-circle" src="bob.jpg" height= 150px width=150px></a></div>
 	<div class="col-sm-6"><h1>Creepy Bob</h1>
-  <span class="glyphicon glyphicon-star"></span>
+  <font size="8"><span class="glyphicon glyphicon-star"></span><i class="glyphicon glyphicon-star-empty"></i><i class="glyphicon glyphicon-star-empty"></i><i class="glyphicon glyphicon-star-empty"></i><i class="glyphicon glyphicon-star-empty"></i></font>
   
-</button></div>
+</div>
 		<div class="row">
+    <div class="col-sm-6"></div>
 			<div class="col-sm-3">Based on 96 reviews</div>
-			<div class="col-sm-9"></div>
+			<div class="col-sm-3">Rate <i class="glyphicon glyphicon-triangle-top"></i></div>
 		</div>
 	</div>
+  <hr>
+  <div><h2 align=center>Leave a comment </h2></div>
 
-	<h3 align="center">Comments</h3>
-
-	<div class="comments">
-		<img id = "img1" src="user.png" height="50px" width="50px">
-		<span> He licked my face !</span>
-	</div>
-
-	<div class="comments">
-		<img id = "img1" src="user.png" height="50px" width="50px">
-		<span> He smelled like cabbage ?!</span>
-	</div>
-	
-	<div class="comments">
-		<img id = "img1" src="user.png" height="50px" width="50px">
-		<span> the whole way he just growled at me </span>
-	</div>
-	<div class="comments">
-		<img id = "img1" src="user.png" height="50px" width="50px">
-		<span> I like him :P </span>
-	</div>
-
-	<div><h2 align=center>Leave a comment </h2></div>
-
-	<form>
+  <form>
   <div class="form-group">
     <label for="comment">Comments</label>
-    <input type="text" class="form-control" id="comment">
+    <input type="textarea" class="form-control" id="comment">
   </div>
-  
-  <button type="submit" class="btn btn-default">Submit</button>
+  <div class="row">
+  <div class="col-md-3 col-centered">
+  <button type="submit" class="btn btn-default">Submit comment</button>
+  </div>
+  <div class="col-md-3 col-centered">
+  </div>
+  <div class="col-md-3 col-centered">
+    <a href="meetingpoint.html" type="submit" class="btn btn-success">Travel with Creepy Bob</button></a>
+  </div>
+  <div class="col-md-3 col-centered">
+    <a href="results.html" type="submit" class="btn btn-info">Back to Buddy list</button></a>
+  </div>
+  </div> <!-- </row> -->
+  </div>
 </form>
-<div></div>
+
+<div class="container">
+<hr>
+	<h3 align="center">Comments</h3>
+<div class="row">
+	<div class="comments col-md-6">
+  <div class="row">
+  <div class="col-md-2">
+		<img id = "img1" src="user.png" height="50px" width="50px">
+    Jamesy
+    </div>
+    <div class="col-md-6">
+		<span> He licked my face !</span>
+    </div>
+    <div class="col-md-4">
+    <span class="glyphicon glyphicon-star"> 
+    </span><i class="glyphicon glyphicon-star-empty"></i><i class="glyphicon glyphicon-star-empty"></i><i class="glyphicon glyphicon-star-empty"></i><i class="glyphicon glyphicon-star-empty"></i>
+    </div>
+    </div> <!-- </row> -->
+	</div>
+
+	<div class="comments col-md-6">
+		 <div class="row">
+  <div class="col-md-2">
+    <img id = "img1" src="user.png" height="50px" width="50px">
+    GlasgowKiss
+    </div>
+    <div class="col-md-6">
+    <span> He smelled like cabbage!?</span>
+    </div>
+    <div class="col-md-4">
+    <span class="glyphicon glyphicon-star"> 
+    </span><i class="glyphicon glyphicon-star-empty"></i><i class="glyphicon glyphicon-star-empty"></i><i class="glyphicon glyphicon-star-empty"></i><i class="glyphicon glyphicon-star-empty"></i>
+    </div>
+    </div> <!-- </row> -->
+    </div>
+    <div class="row">
+	
+	<div class="comments col-md-6">
+		<div class="row">
+  <div class="col-md-2">
+    <img id = "img1" src="user.png" height="50px" width="50px">
+    Secret2001
+    </div>
+    <div class="col-md-6">
+    <span> The whole way he just growled at me</span>
+    </div>
+    <div class="col-md-4">
+    <span class="glyphicon glyphicon-star"> 
+    </span><i class="glyphicon glyphicon-star-empty"></i><i class="glyphicon glyphicon-star-empty"></i><i class="glyphicon glyphicon-star-empty"></i><i class="glyphicon glyphicon-star-empty"></i>
+    </div>
+    </div> <!-- </row> -->
+    </div>
+
+<div class="comments col-md-6">
+<div class="row">
+  <div class="col-md-2">
+    <img id = "img1" src="user.png" height="50px" width="50px">
+    xxBoJoxx
+    </div>
+    <div class="col-md-6">
+    <span> I liked him :P</span>
+    </div>
+    <div class="col-md-4">
+    <span class="glyphicon glyphicon-star"> 
+    </span><i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star-empty"></i>
+    </div>
+    </div> <!-- </row> -->
+  </div>
+  </div>
+  </div>
+<hr>
+	
 
 </div> <!-- /container -->
 
