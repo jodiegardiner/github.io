@@ -32,7 +32,16 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <style type="text/css">
+    .onerow {
+      display: inline-block;
+    }
 
+    .exp {
+      width: 40px;
+    }
+
+    </style>
   
   </head>
 
@@ -131,16 +140,42 @@
                 <input type="checkbox" value="">
                   Card
                 </label>
-              </div>
+
+                <div class="payment">
+                  <label>
+                     Card Number:
+                    <input type="text">
+                    </label>
+                </div>
+                
+                <div class="onerow">
+                  <div class="onerow">
+                   <label>
+                    Expirary Date:
+                    <input type="number" class="exp"> <p class="onerow"> / </p>
+                    <input type="number" class="exp">
+                    </label>
+                  </div>
+                </div>
+
+                <div>
+                  <label>
+                     CVS NO.
+                    <input type="number" class="exp">
+                  </label>
+                </div>
+                    
+                  
+                
             <div class="checkbox disabled">
               <label>
-               <input type="checkbox" value="" disabled>
+               <input type="checkbox" value="" >
                   Paypal
                </label>
             </div>
             <div>
               <label>
-                <input type="checkbox" value="" disabled>
+                <input type="checkbox" value="" >
                   Cash upon delivery
               </label>
             </div>
