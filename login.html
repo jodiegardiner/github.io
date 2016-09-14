@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -15,7 +14,6 @@
     <!-- Bootstrap core CSS -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="bootstrap/css/sticky-footer.css" rel="stylesheet"> 
-    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
     <link href="my_Styles.css" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
@@ -33,9 +31,28 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+<style type="">
+  #button1 {
+    background: green;
+  }
+
+  #button2 {
+    background: yellow;
+    color: black;
+  }
+
+  .back {
+    position: fixed;
+    background: black;
+    color: white;
+  }
+</style>
+
   </head>
 
   <body>
+
+    <button class="back">Back</button>
 
     <!-- Fixed navbar -->
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -78,59 +95,53 @@
     
 
     <div id="container2" class="container">
-     <div class="jumbotron">
-        <h2>find a buddy - share a cab - save money</h2>
-        <p></p>
-        <p></p>
-        <p>
-          <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a>
-        </p>
-      </div>
-    <h3>Three equal columns</h3>
-      <p>Get three equal-width columns <strong>starting at desktops and scaling to large desktops</strong>. On mobile devices, tablets and below, the columns will automatically stack.</p>
-
-     <div class="row">
-        <div class="col-md-4">.col-md-4</div>
-        <div class="col-md-4">.col-md-4</div>
-        <div class="col-md-4">.col-md-4</div>
-      </div>
-
-      <h3>Three unequal columns</h3>
-      <p>Get three columns <strong>starting at desktops and scaling to large desktops</strong> of various widths. Remember, grid columns should add up to twelve for a single horizontal block. More than that, and columns start stacking no matter the viewport.</p>
-      <div class="row">
-        <div class="col-md-3">.col-md-3</div>
-        <div class="col-md-6">.col-md-6</div>
-        <div class="col-md-3">.col-md-3</div>
-      </div>
-
-      <h3>Two columns</h3>
-      <p>Get two columns <strong>starting at desktops and scaling to large desktops</strong>.</p>
-      <div class="row">
-        <div class="col-md-8">.col-md-8</div>
-        <div class="col-md-4">.col-md-4</div>
-      </div>
-
-      <h3>Full width, single column</h3>
-      <p class="text-warning">No grid classes are necessary for full-width elements.</p>
-
-      <hr>
-
-      <h3>Two columns with two nested columns</h3>
-      <p>Per the documentation, nesting is easy—just put a row of columns within an existing column. This gives you two columns <strong>starting at desktops and scaling to large desktops</strong>, with another two (equal widths) within the larger column.</p>
-      <p>At mobile device sizes, tablets and down, these columns and their nested columns will stack.</p>
-      <div class="row">
-        <div class="col-md-8">
-          .col-md-8
-          <div class="row">
-            <div class="col-md-6">.col-md-6</div>
-            <div class="col-md-6">.col-md-6</div>
-          </div>
-        </div>
-        <div class="col-md-4">.col-md-4</div>
-      </div>
+     
+   
 
       <!-- Main component for a primary marketing message or call to action -->
       <hr>
+
+
+      <div class="container4">
+
+      <form class="form-signin">
+        <h2 class= "form-signin-heading" align="center"><strong>Please sign in</strong></h2>
+        <br>
+        <br>
+        <label for="inputEmail" class="sr-only">Email address</label>
+        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="remember-me"> Remember me
+          </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit" id="button1">Sign in</button>
+
+        <br>
+
+        <hr>
+        
+        <div class="row">
+          <div class=col-xs-6>
+            <button class="btn btn-lg btn-primary btn-block">Sign in using your <br />FACEBOOK account</button>
+          </div>
+
+          <div class=col-xs-6>
+            <button class="btn btn-lg btn-primary btn-block" id="button2">Sign in using your <br />HAILO account</button>
+          </div>
+
+        </div>
+          
+
+
+
+        </div>
+      </form>
+
+    </div> <!-- /container -->
+
 
      
 </div>
@@ -152,8 +163,5 @@
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-    <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
-
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   </body>
 </html>
