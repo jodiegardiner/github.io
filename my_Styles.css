@@ -9,6 +9,7 @@
 .footer {
 	background: black;
 	color:white;
+	margin-top:5px;
 }
 
 footer .list-inline a {
@@ -59,3 +60,8 @@ footer .list-inline a {
     .search-query:focus + button {
         z-index: 3;   
     }
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
