@@ -1,0 +1,50 @@
+
+/*Colour palette*/
+/*#E4DBBF - tan pale
+#DC5B21 - burnt orange
+#70AB8F - sea green
+#383127 - deep brown */
+
+
+.btn-1 {
+	background: #70AB8F
+}
+
+.bg-content {
+ 	/*background: url(http://www.htmlcsscolor.com/preview/gallery/E4DBBF.png) 50% 50%;*/
+ 	background: url(../img/Image-235.jpg);
+ 	background-size: cover;
+}
+
+.row .span6 h3:first {
+	color: #DC5B21;
+}
+
+.txt-1 {
+	color: #DC5B21;
+}
+
+.link-1 {
+	color: #DC5B21;
+}
+
+ .flex-direction-nav a.flex-next {
+	background:url(../img/next.png) no-repeat 50% 50% #383127
+}
+ .flex-direction-nav a.flex-prev {
+	background:url(../img/prev.png) no-repeat 50% 50% #383127
+}
+.flex-direction-nav a:hover{background-color:#70AB8F
+}
+
+.twitter-timeline{
+
+}
+
+.btn .btn-cleanup{
+	display: inline block;
+}
+
+/*.foot-btn{
+	color: white;
+}*/
