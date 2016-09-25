@@ -1,10 +1,11 @@
 
-/*Colour palette*/
-/*#E4DBBF - tan pale
-#DC5B21 - burnt orange
-#70AB8F - sea green
-#383127 - deep brown */
 
+
+.color-primary-0 { color: #69C8C4 }	/* Teal Base */
+.color-primary-1 { color: #0D9A94 } /* Teal stronger */
+.color-primary-2 { color: #F6FEFE } /* Off-white/green */
+.color-primary-3 { color: #356967 } /* Teal Dark */
+.color-primary-4 { color: #00EDE4 } /* Teal Light */
 
 .btn-1 {
 	background: #70AB8F
@@ -28,11 +29,11 @@
 	color: #DC5B21;
 }
 
- .flex-direction-nav a.flex-next {
+/* .flex-direction-nav a.flex-next {
 	background:url(../img/next.png) no-repeat 50% 50% #383127
 }
  .flex-direction-nav a.flex-prev {
-	background:url(../img/prev.png) no-repeat 50% 50% #383127
+	background:url(../img/prev.png) no-repeat 50% 50% #383127*/
 }
 .flex-direction-nav a:hover{background-color:#70AB8F
 }

@@ -2,6 +2,9 @@
 
 #Midwife Liz
 
+##Technical Requirements
+Demonstrate what has been learned so far.
+
 ##About the Client
 An independent private midwive offering fully-insured professional maternity care for mothers and families wishing to home-birth.
 
