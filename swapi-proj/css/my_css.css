@@ -8,7 +8,11 @@
 			font-family: StarJediOutline;
 			src:url(../fonts/starjout.ttf);
 		}
-
+		
+		@font-face {
+			font-family: Calibri;
+			src:url(../fonts/calibri.ttf);
+		}
 
 
 		.container{
@@ -246,9 +250,9 @@
 			margin: 10px 0px;
 		}
 
-		tr {
+		/*tr {
 			font-weight: bold;
-		}
+		}*/
 		a:visited {
 			text-decoration: none;
 		}
@@ -261,9 +265,23 @@
 		}
 
 		blockquote {
-			margin-left: 25px;		
+			margin-left: 25px;	
+			font-family:  calibri, arial;	
 		}
 
 		#spacer {
 			margin-top:50px;
+		}
+		.header strong {
+			font-family: calibri, arial;
+			font-size: 48px;
+
+		}
+
+		table, .modal, footer {
+			font-family: Calibri, arial;
+		}
+
+		.modal h1 {
+			font-size: 46px;
 		}
