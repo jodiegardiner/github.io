@@ -4,7 +4,7 @@
 $(document).on('keyup', "#searchQuery", function(event) {
 
 	event.preventDefault();
-	console.log("1111")
+	
 	$(".hidden").removeClass("hidden");
 
 	var nameSearch = $("#searchQuery").val();
@@ -22,7 +22,7 @@ $(document).on('keyup', "#searchQuery", function(event) {
 		$.each(searchItem.results, function(i, sData){
 			var url = sData.url;
 			url = url.replace("http","https");
-			console.log(url)
+			
 			
 			searchOutput += '<tr data-toggle="modal" data-target="#sw_modal" id="'+url+'"><td>' + sData.name + '</td><td>' + sData.gender + '</td><td>' + sData.skin_color + '</td></tr>';
 		})		
@@ -126,11 +126,12 @@ $.each(personDetail.vehicles, function(i, vehData){
 
 })
 
-			var speciesName = personDetail.species;
-			console.log(speciesName);
-			var urls = speciesName;
-			console.log(urls);
-			urls = urls.replace("http","https");
+
+console.log(speciesName);
+var urls = personDetail.species;
+console.log(urls);
+urls = urls.replace("http","https");
+
 $.ajax({
 	url: urls,
 	dataType: 'json',
