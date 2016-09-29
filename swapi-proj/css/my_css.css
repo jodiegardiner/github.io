@@ -114,6 +114,7 @@
 
 		.container #maincontainer {
 			border-top-right-radius: 5px;
+			margin-top:50px;
 		}
 
 		
@@ -261,4 +262,8 @@
 
 		blockquote {
 			margin-left: 25px;		
+		}
+
+		#spacer {
+			margin-top:50px;
 		}
