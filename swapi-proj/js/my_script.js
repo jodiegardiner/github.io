@@ -240,7 +240,7 @@ $(document).on('click', "#vehicle-results tr", function(event){
 		$("#vehicleCargo").html("<li class='list-group-item'>"+vehicleDetail.cargo_capacity+"</li>");
 		$("#vehicleCons").html("<li class='list-group-item'>"+vehicleDetail.consumables+"</li>");
 
-		console.log(vehicleDetail);
+		
 		
 
 		var appearsIn="";
@@ -271,7 +271,7 @@ $(document).on('click', "#vehicle-results tr", function(event){
 			else  {
 				console.log("shouldn't see me");
 			}
-			console.log(appearsIn);
+			
 		};
 		$("#vehicle-list").html(appearsIn);
 	})
@@ -337,7 +337,7 @@ $(document).on('click', "#ship-results tr", function(event){
 		$("#shipCargo").html("<li class='list-group-item'>"+shipDetail.cargo_capacity+"</li>");
 		$("#shipCons").html("<li class='list-group-item'>"+shipDetail.consumables+"</li>");
 
-		console.log(shipDetail);
+		
 		
 
 		var appearsIn="";
@@ -368,7 +368,7 @@ $(document).on('click', "#ship-results tr", function(event){
 			else  {
 				console.log("shouldn't see me");
 			}
-			console.log(appearsIn);
+			
 		};
 		$("#ship-list").html(appearsIn);
 	});
