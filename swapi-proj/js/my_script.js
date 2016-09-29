@@ -75,9 +75,10 @@ $("#peopleEyes").html("<li class='list-group-item'>"+personDetail.eye_color+"</l
 $("#genderIco").html("     "+genderIcon);
 $("#peopleYear").html("<li class='list-group-item'>"+personDetail.birth_year+"</li>");
 
-
+			var url = planetName;
+			url = url.replace("http","https");
 $.ajax({
-	url: planetName,
+	url: url,
 	dataType: 'json',
 })
 
@@ -125,8 +126,8 @@ $.each(personDetail.vehicles, function(i, vehData){
 
 })
 
-var speciesName=personDetail.species
-var url = speciesName;
+		var speciesName=personDetail.species
+		var url = speciesName;
 			url = url.replace("http","https");
 $.ajax({
 	url: url,
