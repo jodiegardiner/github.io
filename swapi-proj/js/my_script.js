@@ -89,38 +89,39 @@ $.ajax({
 var shipList='';
 
 $.each(personDetail.starships, function(i, shipData){
-	
-	
+	var url = shipData;
+			url = url.replace("http","https");
+
 	$.ajax({
-		url: shipData,
+		url: url,
 		dataType: 'json',
 	})
 	.success(function( shipName) {
-		
+
 		shipList+= "<li class='list-group-item'>"+shipName.name+"</li>";
 		$("#ship-list").html(shipList);
-		
+
 	})
-	
+
 
 })
 
 var vehList='';
 
 $.each(personDetail.vehicles, function(i, vehData){
-	
-	
+			var url = vehData;
+			url = url.replace("http","https");
 	$.ajax({
-		url: vehData,
+		url: url,
 		dataType: 'json',
 	})
 	.success(function( vehName) {
-		
+
 		vehList+= "<li class='list-group-item'>"+vehName.name+"</li>";
 		$("#veh-list").html(vehList);
-		
+
 	})
-	
+
 
 })
 
@@ -136,8 +137,8 @@ $.ajax({
 
 var appearsIn="";
 for (var i=0; i<personDetail.films.length; i++) {
-	
-	
+
+
 	if (personDetail.films[i] == "https://swapi.co/api/films/1/") {
 		appearsIn+='<img title="A New Hope" class="img-responsive img-rounded" src="img/ep4.jpg">';
 	}
@@ -269,7 +270,7 @@ $(document).on('click', "#vehicle-results tr", function(event){
 		};
 		$("#vehicle-list").html(appearsIn);
 	})
-	
+
 })
 
 // Search for Starship name using user input
@@ -366,5 +367,5 @@ $(document).on('click', "#ship-results tr", function(event){
 		};
 		$("#ship-list").html(appearsIn);
 	});
-	
+
 })
