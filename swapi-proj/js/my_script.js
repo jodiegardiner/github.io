@@ -126,8 +126,10 @@ $.each(personDetail.vehicles, function(i, vehData){
 
 })
 
-			var speciesName=personDetail.species;
+			var speciesName = personDetail.species;
+			console.log(speciesName);
 			var url = speciesName;
+			console.log(url);
 			url = url.replace("http","https");
 $.ajax({
 	url: url,
