@@ -127,7 +127,7 @@ $.each(personDetail.vehicles, function(i, vehData){
 })
 
 
-console.log(speciesName);
+
 var urls = personDetail.species;
 console.log(urls);
 urls = urls.replace("http","https");
