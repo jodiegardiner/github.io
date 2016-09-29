@@ -30,7 +30,11 @@
 		}
 
 		.table th {
-			color:#c2c2d6;
+			/*color:#c2c2d6;*/
+			color:#FFD700;
+
+			font-weight: bold;
+		}
 		}
 
 		.table td {
@@ -174,6 +178,7 @@
     		border-top-left-radius: 2px;
     		border-top-right-radius: 2px;
     		margin-top: 3px;
+    		margin-bottom: 25px;
     		background: #1C1E22;
     		margin-right: auto;
     		margin-left: auto;
@@ -241,10 +246,7 @@
 		.fa-first-order {
 			color:navy;
 		}
-
-		.mainheader, .fa-rebel, .fa-first-order {
-			text-shadow: 5px 5px 5px #000000;
-		}*/
+		*/
 
 		.logo {
 			margin: 10px 0px;
@@ -284,4 +286,11 @@
 
 		.modal h1 {
 			font-size: 46px;
+			/*color:#FFD700;*/
 		}
+
+		#ship-ctn {
+			/*background-color:#FFD700;*/
+			/*background-image: url(../img/ships.jpg);*/
+		}
+
