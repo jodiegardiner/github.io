@@ -131,7 +131,7 @@ $.each(personDetail.vehicles, function(i, vehData){
 
 var urls = personDetail.species;
 console.log(urls);
-urls = urls.replace("http","https");
+urls = urls[0].replace("http","https");
 
 $.ajax({
 	url: urls,
