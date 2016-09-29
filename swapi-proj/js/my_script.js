@@ -169,7 +169,7 @@ for (var i=0; i<personDetail.films.length; i++) {
 	else  {
 		console.log("shouldn't see me");
 	}
-	console.log(appearsIn);
+	
 };
 
 $("#film-list").html(appearsIn);
@@ -203,7 +203,6 @@ $(document).on('keyup', "#search-vehicle", function(event) {
 		$.each(searchItem.results, function(i, sData){
 			var url = sData.url;
 			url = url.replace("http","https");
-			console.log(url)
 			
 			searchOutput += '<tr data-toggle="modal" data-target="#veh_modal" id="'+url+'"><td>' + sData.name + '</td><td>' + sData.manufacturer + '</td><td>' + sData.crew + '</td><td>' + sData.cost_in_credits + '</td></tr>';
 		})		
@@ -302,7 +301,6 @@ $(document).on('keyup',"#search-ship", function(event) {
 		$.each(searchItem.results, function(i, sData){
 			var url = sData.url;
 			url = url.replace("http","https");
-			console.log(url)
 			searchOutput += '<tr data-toggle="modal" data-target="#ship_modal" id="'+url+'"><td>' + sData.name + '</td><td>' + sData.model + '</td><td>' + sData.cost_in_credits + '</td></tr>';
 		})		
 
