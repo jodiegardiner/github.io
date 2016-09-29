@@ -1,0 +1,115 @@
+
+
+
+	<div class="container" id="search-head">
+		
+		
+		
+		<div class="container ctn">
+			<div class="row">
+				<div class="col-md-9">
+					<h1 class="header"><strong>Ship Search</strong></h1>
+				</div>
+				
+			</div>
+		</div>
+      	<div class="row">
+			<div class="col-md-12">
+		  		<div class="form-group">
+		      		<input type="text" class="form-control" placeholder="Find a starship" name="srch-term" id="search-ship">
+		      		</div>
+		      		
+		      <!-- <span class=" header sub-header"><p> <strong>Search a galaxy far, far away</strong></p></span> -->
+		      
+		    	
+		  	</div> 
+		</div>
+		
+
+      		<div>
+	      		<table class="table hidden">
+	      		<thead>
+	      		<th>Ships</th>
+	      		<th>Model</th>
+	      		<th>Cost</th>
+	      	
+	      		<tbody id="ship-results">
+	      		</tbody>
+	      		</table>
+      		</div>
+
+      	<div class="row">
+			<blockquote>
+  				<p>Witness the firepower of this fully armed and operational battlestation!</p>
+  				<footer>The Emperor <cite title="Source Title">Return of the Jedi</cite></footer>
+			</blockquote>
+
+		</div>
+      </div>
+     </div>
+
+   </div>
+
+<!-- Modal -->
+		
+			<div class="modal fade" id="ship_modal" tabindex="-1" role="dialog" aria-labelledby="shipModalLabel">
+			  <div class="modal-dialog" role="document">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			        <h1 class="modal-title" id="shipModalLabel"></h1><span id="genderIco"></span>
+			      </div>
+			      <div class="modal-body" id=shipBody>
+			      	<div class="row modal-layout">
+			      		<div class="col-md-9 "><strong>Manufacturer</strong>
+			      			<ul class="list-group" id="shipMaker"></ul>
+			      		</div>
+			      	
+			    
+			      		<div class="col-md-3 "><strong>Cost(credits)</strong>
+			      			<ul class="list-group" id="shipCost"></ul>
+			      		</div>
+			      		<div class="col-md-12 "><strong>Model</strong>
+			      			<ul class="list-group" id="shipModel"></ul>
+			      		</div>
+			      	</div>
+			      	<div class="row modal-layout">
+			      		<div class="col-md-3 "><strong>Crew</strong> <ul class="list-group" id="shipCrew"></ul></div>
+			      		<div class="col-md-3"><strong>Passengers</strong> <ul class="list-group" id="shipPass"></ul></div>
+			      		<div class="col-md-3"><strong>Max Speed(kph)</strong> <ul class="list-group" id="shipSpeed"></ul></div>
+			      		<div class="col-md-3"><strong>Length(m)</strong> <ul class="list-group" id="shipLength"></ul></div>
+			      	</div>
+			      	
+			      	<div class="row modal-layout">
+			      		<div class="col-md-6"><strong>Cargo Capacity(kg)</strong> <ul class="list-group" id="shipCargo"></ul>
+			      		</div>
+			      		<div class="col-md-6"><strong>Consumables</strong> <ul class="list-group" id="shipCons"></ul>
+			      		</div>
+			      	</div>
+			         <div class="row modal-layout ">
+			      		<div class="col-md-12"><strong>Seen in</strong></div>
+			      	</div>
+			      	<div class="row modal-layout appears">
+			      		<div class="col-md-12"><span id="ship-list"></span></div>
+			      	</div>
+			      </div>
+
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-default" data-dismiss="modal">back</button>
+			        
+			      </div>
+			    </div>
+			  </div>
+			</div>
+
+
+</div>
+		
+	</div>
+
+<!-- 
+
+	..........End Content......
+
+-->
+

@@ -1,0 +1,118 @@
+	<div class="container" id="search-head">
+		
+				
+		<div class="container ctn">
+			<div class="row">
+				<h1 class="header "><strong>People Search</strong></h1>
+			</div>
+		</div>
+      	<div class="row">
+			<div class="col-md-12">
+		 		<div class="form-group">
+		      		<input type="text" class="form-control" placeholder="Find people" name="srch-term" id="searchQuery">
+		      
+		    	</div>
+		  	</div> 
+		</div>
+		
+		
+<!-- Search results -->
+
+      		<div>
+	      		<table class="table hidden">
+	      		<thead>
+	      		<th>People</th>
+	      		<th>Gender</th>
+	      		<th>Skin colour</th>
+	      		<tbody id="search-results">
+	      		</tbody>
+	      		</table>
+      		</div>
+
+      		<div class="row">
+      		<blockquote>
+  				<p>In my experience there is no such thing as luck.</p>
+  				<footer>Obi Wan Kenobi <cite title="Source Title">A New Hope</cite></footer>
+			</blockquote>
+			</div>
+  </div>
+      	
+
+      
+
+
+
+<!-- Modal -->
+		
+			<div class="modal fade" id="sw_modal" tabindex="-1" role="dialog" aria-labelledby="peopleModalLabel">
+			  <div class="modal-dialog" role="document">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			        <strong><h1 class="modal-title" id="peopleModalLabel"></h1></strong><span id="genderIco"></span>
+			      </div>
+			      
+			      <div class="modal-body" id=peopleBody>
+			      	<div class="row modal-layout">
+			      		<div class="col-md-12 "><strong>Species</strong>
+			      			<ul class="list-group" id="peopleSpecies"></ul></div>
+			      		</div>
+			      	<div class="row modal-layout">
+			      		<div class="col-md-3 "><strong>Height (cm)</strong> <ul class="list-group" id="peopleHeight"></ul></div>
+			      		<div class="col-md-3"><strong>Weight (kg)</strong> <ul class="list-group" id="peopleWeight"></ul></div>
+			      		<div class="col-md-3"><strong>Hair</strong> <ul class="list-group" id="peopleHair"></ul></div>
+			      		<div class="col-md-3"><strong>Eyes</strong> <ul class="list-group" id="peopleEyes"></ul></div>
+			      	</div>
+			      	
+			      	<div class="row modal-layout">
+			      		<div class="col-md-6"><strong>Homeworld</strong> <ul class="list-group" id="peopleWorld"></ul></div>
+			      		<div class="col-md-6"><strong>Birth Year</strong> <ul class="list-group" id="peopleYear"></ul></div>
+			      	</div>
+			      	
+			      	<div class="row modal-layout">
+			      		<div class="col-md-6">&nbsp;<span"><strong>&nbsp;Starships used&nbsp;</strong></span>
+			      			<ul class="list-group" id="ship-list">
+			      		 	
+			      		 	</ul>
+			      		</div>
+
+
+			      		<div class="col-md-6">&nbsp;<span class=""><strong>&nbsp;Vehicles used&nbsp;</strong></span>
+							<ul class="list-group" id="veh-list">
+								
+							</ul>
+			      		</div>
+			      		
+			      	</div>
+			      	
+			      	<div class="row modal-layout ">
+			      		<div class="col-md-12"><strong>Appears in</strong></div>
+			      	</div>
+			      	<div class="row modal-layout appears">
+			      		<div class="col-md-12"><span id="film-list"></span></div>
+			      	</div>
+			       
+			      </div>
+
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-default" data-dismiss="modal">back</button>
+			        
+			      </div>
+			    </div>
+			  </div>
+			</div>
+
+<!-- 			End Modal -->
+
+
+
+	
+	</div>
+
+	
+
+<!-- 
+
+	..........End Content......
+
+-->

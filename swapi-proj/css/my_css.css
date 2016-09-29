@@ -1,0 +1,264 @@
+
+		@font-face {
+			font-family: StarJediSE;
+			src:url(../fonts/stjedise.ttf);
+		}
+
+		@font-face {
+			font-family: StarJediOutline;
+			src:url(../fonts/starjout.ttf);
+		}
+
+
+
+		.container{
+			border: 3px grey solid;
+			
+			border-bottom-left-radius :10px;
+			border-bottom-right-radius :10px;
+			border-top-left-radius :30px;
+			border-top-right-radius :255px;
+			margin-top: 20px;
+			background: #1C1E22;
+						
+			/*background-color: #1C1E22;*/
+			/*background-color: #F5F5F5;*/
+		}
+
+		.table th {
+			color:#c2c2d6;
+		}
+
+		.table td {
+			color: #F5F5F5;
+		}
+		
+		tbody tr:hover {
+			background: #272B30;
+			cursor: pointer;
+		}
+		
+
+		.search-element{
+			margin-bottom: 50px;
+		}
+
+		
+		.header {
+			
+		}
+
+		/*body {
+			background: #272B30;
+		}*/
+
+		.img-store img {
+			border: 2px black solid;
+			margin: 5px;
+		}
+
+		.hid{
+			visibility:hidden;
+		}
+
+		h1 {
+			margin-left: 10px;
+			font-weight: bold;
+		}
+		
+		.fa-mars{
+			color:#6DCAE8;
+		}
+		
+		.fa-venus{
+			color:pink;
+		}
+
+		.fa-mercury{
+			color:goldenrod;
+		}
+		.fa-ban{
+			color:red;
+		}
+
+		.modal-header h1{
+			display:inline;
+		}
+
+		#genderIco {
+			float:right;
+		}
+
+		.main-header {
+			font-family: "StarJediOutline", Helvetica, sans-serif;
+			font-size: 60px;
+			color: gold;
+
+		}
+
+		.footer span {
+			align-items: right;
+		}
+
+		.footer .container {
+			margin-top: 3px;
+		}
+
+		.foot-right {
+			float:right;
+		}
+
+		input[type=text] {
+			width:60%;
+		}
+
+		.container #maincontainer {
+			border-top-right-radius: 5px;
+		}
+
+		
+		.sub-header {
+			vertical-align: bottom;
+		}
+
+		a {
+			color: #C2C2D6;
+
+		}
+		a:hover {
+			text-decoration: none;
+			color: #C2C2D6;
+		}
+		.ctn {
+			width:60%;
+			margin-left: 0px;
+
+		}
+
+		.modal-content {
+			background-image: url(https://s-media-cache-ak0.pinimg.com/originals/e1/11/5a/e1115afea56dcaf0c273a4f3d9fc7f3a.jpg)
+		}
+
+		body{
+			/*background-image: url(../img/starfield.jpg);*/
+			background-image: url(https://www.docwallpaper.com/wp-content/uploads/2016/07/Star-Wars-Stars-Spaceship-1024x768.jpg);
+			background-size: cover;
+			/*background-image: url(https://s-media-cache-ak0.pinimg.com/originals/e1/11/5a/e1115afea56dcaf0c273a4f3d9fc7f3a.jpg)*/
+		}	
+
+		#btn-container {
+			border: 3px grey solid;
+    		border-bottom-left-radius: 2px;
+    		border-bottom-right-radius: 2px;
+    		border-top-left-radius: 2px;
+    		border-top-right-radius: 2px;
+    		margin-top: 3px;
+    		background: #1C1E22;
+    		margin-right: auto;
+    		margin-left: auto;
+    		padding-left: 15px;
+    		padding-right: 15px;
+    		padding-top: 10px;
+    		padding-bottom: 10px;
+		}
+
+		footer #foot-container {
+			border: 3px grey solid;
+    		border-bottom-left-radius: 10px;
+    		border-bottom-right-radius: 50px;
+    		border-top-left-radius: 2px;
+    		border-top-right-radius: 2px;
+    		margin-top: 3px;
+    		background: #1C1E22;
+    		margin-right: auto;
+    		margin-left: auto;
+    		padding-left: 15px;
+    		padding-right: 15px;
+    		padding-top: 5px;
+    		padding-bottom: 5px;
+		}
+		
+		.img-store img{
+			
+			box-shadow: 5px 5px 5px #000000;
+		}
+		.img-store1 {
+			border-bottom-left-radius: 2px;
+    		border-bottom-right-radius: 2px;
+    		border-top-left-radius: 2px;
+    		border-top-right-radius: 2px;
+    		
+		}
+
+		
+
+		.modal-layout {
+			border: 2px solid grey;
+			border-radius: : 20px
+			box-shadow: 5px 5px 10px #1C1E22;
+			/*padding-bottom: 5px;*/
+			margin-top: 5px;
+			margin-left: 10px
+			margin-right: 10px;
+
+		}
+		.sub {
+			margin-left: 10px;
+		}
+
+		.appears img {
+			height:150px;
+			width:100px;
+			float:left;
+		}
+
+		.appears img:hover{
+			-webkit-transform:scale(2.5);
+			transform:scale(2.5)
+
+		}
+
+		.modal-label {
+			background: grey;
+			color:#ffffff;
+			/*background: #1C1E22;*/
+			margin-bottom: 0px;
+			border-bottom: 2px solid #32383E;
+			border-top-left-radius:  3px;
+			border-top-right-radius:  3px;
+		}
+
+		
+	/*	.fa-rebel {
+			color:red;
+					}
+
+		.fa-first-order {
+			color:navy;
+		}
+
+		.mainheader, .fa-rebel, .fa-first-order {
+			text-shadow: 5px 5px 5px #000000;
+		}*/
+
+		.logo {
+			margin: 10px 0px;
+		}
+
+		tr {
+			font-weight: bold;
+		}
+		a:visited {
+			text-decoration: none;
+		}
+
+		#search-head {
+			border-radius:5px;
+			/*border-top-left-radius: 10px;
+			border-top-right-radius:10px;*/
+			margin-top: 2px;
+		}
+
+		blockquote {
+			margin-left: 25px;		
+		}
