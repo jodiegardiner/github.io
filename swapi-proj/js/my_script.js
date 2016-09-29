@@ -110,8 +110,9 @@ $.each(personDetail.starships, function(i, shipData){
 var vehList='';
 
 $.each(personDetail.vehicles, function(i, vehData){
-			var url = vehData;
-			url = url.replace("http","https");
+	var url = vehData;
+	url = url.replace("http","https");
+
 	$.ajax({
 		url: url,
 		dataType: 'json',
@@ -170,13 +171,13 @@ for (var i=0; i<personDetail.films.length; i++) {
 		console.log("shouldn't see me");
 	}
 	
-};
+}; //end for loop
 
 $("#film-list").html(appearsIn);
 
 
-});
-})
+});  //end success funtion
+})  //end event listener
 
 
 
