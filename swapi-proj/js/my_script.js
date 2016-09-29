@@ -128,11 +128,11 @@ $.each(personDetail.vehicles, function(i, vehData){
 
 			var speciesName = personDetail.species;
 			console.log(speciesName);
-			var url = speciesName;
-			console.log(url);
-			url = url.replace("http","https");
+			var urls = speciesName;
+			console.log(urls);
+			urls = urls.replace("http","https");
 $.ajax({
-	url: url,
+	url: urls,
 	dataType: 'json',
 })
 
