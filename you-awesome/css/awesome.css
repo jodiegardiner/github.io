@@ -16,3 +16,15 @@
     background-size: cover;
     color: #fff;
 }
+#hey {
+    color:#3F6184;
+    font-weight: bold;
+    text-shadow: 2px 2px #000;
+
+}
+#you {
+    font-weight:  bold;  
+    /*color:#3F6184;*/
+    text-shadow: 2px 2px #000;
+
+}
