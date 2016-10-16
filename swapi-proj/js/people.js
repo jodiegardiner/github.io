@@ -144,5 +144,5 @@ appearsIn = getFilmPic(personDetail);
 $("#film-list").html(appearsIn);
 
 
-});  //end success funtion
-})  //end event listener
+});  
+})  
