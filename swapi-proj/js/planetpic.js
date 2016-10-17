@@ -28,10 +28,9 @@ function getFilmPic(api_call) {
 				appearsIn+='<img title="The Force Awakens" class="img-responsive img-rounded" src="img/ep7.jpg">';
 			}
 			else  {
-				console.log("shouldn't see me");
+				appearsIn='No film appearances';
 			}
 			
 		};
-		console.log(appearsIn)
 		return appearsIn
 }

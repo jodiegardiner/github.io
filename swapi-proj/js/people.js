@@ -89,20 +89,16 @@ var shipList='';
 
 $.each(personDetail.starships, function(i, shipData){
 	var url = shipData;
-			url = url.replace("http","https");
+	url = url.replace("http","https");
 
 	$.ajax({
 		url: url,
 		dataType: 'json',
 	})
 	.success(function( shipName) {
-
 		shipList+= "<li class='list-group-item'>"+shipName.name+"</li>";
 		$("#ship-list").html(shipList);
-
 	})
-
-
 })
 
 var vehList='';
@@ -116,13 +112,9 @@ $.each(personDetail.vehicles, function(i, vehData){
 		dataType: 'json',
 	})
 	.success(function( vehName) {
-
 		vehList+= "<li class='list-group-item'>"+vehName.name+"</li>";
 		$("#veh-list").html(vehList);
-
 	})
-
-
 })
 
 
@@ -144,5 +136,5 @@ appearsIn = getFilmPic(personDetail);
 $("#film-list").html(appearsIn);
 
 
-});  //end success funtion
-})  //end event listener
+});  
+})  
