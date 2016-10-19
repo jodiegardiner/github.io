@@ -205,7 +205,7 @@
 			margin-right: 10px;
 
 		}
-		.modal-header {
+		.modal-body {
 			margin-top: 25px;
 		}
 		.sub {
@@ -269,5 +269,10 @@
 
 		.modal h1 {
 			font-size: 46px;
+		}
+
+		.btn-default {
+			margin-top: 15px;
+			float:right;
 		}
 
