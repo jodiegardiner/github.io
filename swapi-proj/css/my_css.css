@@ -24,15 +24,11 @@
 			border-top-right-radius :255px;
 			margin-top: 20px;
 			background: #1C1E22;
-						
-			/*background-color: #1C1E22;*/
-			/*background-color: #F5F5F5;*/
+			
 		}
 
 		.table th {
-			/*color:#c2c2d6;*/
 			color:#FFD700;
-
 			font-weight: bold;
 		}
 		}
@@ -55,10 +51,6 @@
 		.header {
 			
 		}
-
-		/*body {
-			background: #272B30;
-		}*/
 
 		.img-store img {
 			border: 2px black solid;
@@ -94,7 +86,10 @@
 		}
 
 		#genderIco {
-			float:right;
+
+			/*margin-right: 15px;
+			border: 5px black solid;
+			background-color: black;*/
 		}
 
 		.main-header {
@@ -146,7 +141,7 @@
 		}
 
 		.modal-content {
-			background-image: url(../img/bg.jpg)
+			background-image: url(../img/bg4.jpg)
 		}
 
 		body{
@@ -205,11 +200,13 @@
 			border: 2px solid grey;
 			border-radius: : 20px
 			box-shadow: 5px 5px 10px #1C1E22;
-			/*padding-bottom: 5px;*/
 			margin-top: 5px;
 			margin-left: 10px
 			margin-right: 10px;
 
+		}
+		.modal-header {
+			margin-top: 25px;
 		}
 		.sub {
 			margin-left: 10px;
@@ -230,40 +227,24 @@
 		.modal-label {
 			background: grey;
 			color:#ffffff;
-			/*background: #1C1E22;*/
 			margin-bottom: 0px;
 			border-bottom: 2px solid #32383E;
 			border-top-left-radius:  3px;
 			border-top-right-radius:  3px;
 		}
 
-		
-	/*	.fa-rebel {
-			color:red;
-					}
-
-		.fa-first-order {
-			color:navy;
-		}
-		*/
-
 		.logo {
 			margin: 10px 0px;
 		}
 
-		/*tr {
-			font-weight: bold;
-		}*/
+
 		a:visited {
 			text-decoration: none;
 		}
 
 		#search-head {
 			border-radius:5px;
-			/*border-top-left-radius: 10px;
-			border-top-right-radius:10px;*/
-			margin-top: 2px;
-			
+			margin-top: 2px;			
 			background-image: url(../img/bg2.jpg);
 
 		}
@@ -288,11 +269,5 @@
 
 		.modal h1 {
 			font-size: 46px;
-			/*color:#FFD700;*/
-		}
-
-		#ship-ctn {
-			/*background-color:#FFD700;*/
-			/*background-image: url(../img/ships.jpg);*/
 		}
 
