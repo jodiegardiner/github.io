@@ -7,9 +7,15 @@
 
 # Stream 1 project - Front End development
 
-Simple responsive app to look up trivia from the [SWAPI](http://swapi.co).
+Simple responsive app to look up Star Wars trivia.
 
-Angular routing
-Bootstrap
-JQuery
-Chaining callbacks
+Technologies used:
+* Angular routing
+* Bootstrap
+* CSS
+* JQuery
+
+Third-party resources used:
+* [SWAPI](http://swapi.co)
+* [Star wars crawl](https://polarnotion.github.io/starwarsintro/)
+* [Hover.css](http://ianlunn.github.io/Hover/)
