@@ -53,13 +53,13 @@ $(document).on('click', "#search-results tr", function(event){
 		
 
 		if (personDetail.gender == "male"){
-			genderIcon="<i class='fa fa-mars fa-3x'></i>"
+			genderIcon="<i class='fa fa-mars'></i>"
 		}	else if (personDetail.gender == "female"){
-			genderIcon="<i class='fa fa-venus fa-3x'></i>"
+			genderIcon="<i class='fa fa-venus'></i>"
 		}	else if (personDetail.gender =="n/a"){
-			genderIcon="<i class='fa fa-ban fa-3x'></i>"
+			genderIcon="<i class='fa fa-ban'></i>"
 		}	else if (personDetail.gender =="hermaphrodite"){
-			genderIcon="<i class='fa fa-mercury fa-3x'></i>"
+			genderIcon="<i class='fa fa-mercury'></i>"
 		}	else {
 			genderIcon=""			
 		};
@@ -89,20 +89,16 @@ var shipList='';
 
 $.each(personDetail.starships, function(i, shipData){
 	var url = shipData;
-			url = url.replace("http","https");
+	url = url.replace("http","https");
 
 	$.ajax({
 		url: url,
 		dataType: 'json',
 	})
 	.success(function( shipName) {
-
 		shipList+= "<li class='list-group-item'>"+shipName.name+"</li>";
 		$("#ship-list").html(shipList);
-
 	})
-
-
 })
 
 var vehList='';
@@ -116,13 +112,9 @@ $.each(personDetail.vehicles, function(i, vehData){
 		dataType: 'json',
 	})
 	.success(function( vehName) {
-
 		vehList+= "<li class='list-group-item'>"+vehName.name+"</li>";
 		$("#veh-list").html(vehList);
-
 	})
-
-
 })
 
 
@@ -144,5 +136,5 @@ appearsIn = getFilmPic(personDetail);
 $("#film-list").html(appearsIn);
 
 
-});  //end success funtion
-})  //end event listener
+});  
+})  
