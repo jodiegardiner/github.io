@@ -17,20 +17,17 @@
 
 		.container{
 			border: 3px grey solid;
-			
 			border-bottom-left-radius :10px;
 			border-bottom-right-radius :10px;
 			border-top-left-radius :30px;
 			border-top-right-radius :255px;
 			margin-top: 20px;
 			background: #1C1E22;
-			
 		}
 
 		.table th {
 			color:#FFD700;
 			font-weight: bold;
-		}
 		}
 
 		.table td {
@@ -45,11 +42,6 @@
 
 		.search-element{
 			margin-bottom: 50px;
-		}
-
-		
-		.header {
-			
 		}
 
 		.img-store img {
@@ -85,12 +77,6 @@
 			display:inline;
 		}
 
-		#genderIco {
-
-			/*margin-right: 15px;
-			border: 5px black solid;
-			background-color: black;*/
-		}
 
 		.main-header {
 			font-family: "StarJediOutline", Helvetica, sans-serif;
@@ -133,11 +119,10 @@
 			text-decoration: none;
 			color: #C2C2D6;
 		}
+
 		.ctn {
 			width:60%;
 			margin-left: 0px;
-
-
 		}
 
 		.modal-content {
@@ -147,7 +132,7 @@
 		body{
 			background-image: url(../img/bodybg.jpg);
 			background-size: cover;
-			}
+		}
 
 		#btn-container {
 			border: 3px grey solid;
@@ -186,6 +171,7 @@
 			
 			box-shadow: 5px 5px 5px #000000;
 		}
+
 		.img-store1 {
 			border-bottom-left-radius: 2px;
     		border-bottom-right-radius: 2px;
@@ -193,8 +179,6 @@
     		border-top-right-radius: 2px;
     		
 		}
-
-		
 
 		.modal-layout {
 			border: 2px solid grey;
@@ -205,9 +189,11 @@
 			margin-right: 10px;
 
 		}
+
 		.modal-body {
 			margin-top: 25px;
 		}
+
 		.sub {
 			margin-left: 10px;
 		}
@@ -246,7 +232,6 @@
 			border-radius:5px;
 			margin-top: 2px;			
 			background-image: url(../img/bg2.jpg);
-
 		}
 
 		blockquote {
@@ -260,7 +245,6 @@
 		.header strong {
 			font-family: calibri, arial;
 			font-size: 48px;
-
 		}
 
 		table, .modal, footer {
@@ -275,4 +259,3 @@
 			margin-top: 15px;
 			float:right;
 		}
-
