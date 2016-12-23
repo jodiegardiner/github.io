@@ -3,7 +3,7 @@
 # Star Query v1.1
 ## search a galaxy far, far away
 
-[Star Query Live Version](http://jodiegardiner.github.io/swapi-project)
+[Star Query Live Version](http://jodiegardiner.github.io/swapi-proj)
 
 # Stream 1 project - Front End development
 
