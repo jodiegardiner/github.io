@@ -1,5 +1,4 @@
 # jodiegardiner.github.io
 
-## Stream One final project
-
+## Stream One test project
 
